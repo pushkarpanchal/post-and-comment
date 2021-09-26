@@ -2,8 +2,8 @@
   <div>
     <v-row class="justify-center mt-4">
       <v-col
-        cols="6"
-        md="6" 
+        cols="8"
+        md="8" 
       >
       <v-text-field
         label="Title"
@@ -12,12 +12,12 @@
     </v-row>
     <v-row class="justify-center">
     <v-col
-        cols="6"
-        md="6"
+        cols="8"
+        md="8"
       >
         <v-textarea
           solo
-          name="input-3-1"
+          name="input-1-1"
           label="description"
           v-model="newPostBody"
         ></v-textarea>
@@ -34,7 +34,7 @@
       </v-col>
     </v-row>
     <v-list class="mx-auto"
-    max-width="500">
+    max-width="1000">
       <h3>Posts</h3>
       <v-list-item-group 
           v-for="(item) in userData"
@@ -52,7 +52,7 @@
     </v-list>
     <div>
       <v-list class="mx-auto"
-    max-width="500">
+    max-width="1000">
       <h3>Comment</h3>
 
     <v-row class="justify-center mt-1">

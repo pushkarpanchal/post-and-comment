@@ -1,5 +1,15 @@
 <template>
   <v-container>
+    <v-row class="justify-center">
+      <v-col cols="4" class="text-center" >
+        <h1>Welcome to Social blogs</h1>
+      </v-col>
+    </v-row>
+    <v-row class="justify-center">
+      <v-col cols="4" class="text-center" >
+        Please Login using Email/User id
+      </v-col>
+    </v-row>
     <v-row class="text-center">
       <v-col cols="12">
         <v-form v-model="valid" ref="form">
